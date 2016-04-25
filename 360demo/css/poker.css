@@ -1,0 +1,193 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color: #45a176;
+	
+}
+.card{
+	position:absolute;
+	border-radius:4%;
+	float:left;
+	margin:0 2px;
+	background-color:#fff;
+}
+.face{
+	
+	width:85px;
+	height:119px;
+	background-size: 100% 100%;
+}
+
+.topleft,.bottomright{
+	font-size:100%;
+	position:absolute;
+}
+.topleft{
+	top:0px;
+	left:2%;
+}
+.bottomright{
+	bottom:0px;
+	right:2%;
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.card_0{
+	background-color: #A3A3A3;
+}
+
+#dealer{
+	position:relative;
+	width:100px;
+	height:120px;
+	margin:10px auto;
+
+}
+#loose{
+	position:relative;
+	width:100px;
+	height:160px;
+	margin:0 auto;
+}
+.poker{
+	position:relative;
+	max-width:70%;
+	height:300px;
+	margin:0 auto;
+	text-align: center;
+}
+.value{
+	position:absolute;
+	width:40px;
+	height:40px;
+	line-height: 40px;
+	
+	top:40px;
+	left:-40px;
+	z-index:20;
+	font-size:20px;
+}
+/* #loose span{
+	position:absolute;
+	width:40px;
+	height:40px;
+	line-height: 40px;
+	
+	top:40px;
+	left:-40px;
+	z-index:20;
+	font-size:20px;
+} */
+#start{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	border:none;
+	position:absolute;
+	bottom:4px;
+	right:4px;
+	background-color: #12c3d9;
+}
+#go,#stop{
+	width:70px;
+	height:35px;
+	border:none;
+	border-radius: 4px;
+	display:none;
+}
+.fix{
+	position:fixed;
+	bottom:20px;
+	font-family: "微软雅黑";
+}
+button{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.card{
+	/*display:none;*/
+}
+.player{
+	max-width:10%;
+	min-width:9%;
+	margin:0 4.9%;
+	border:1px solid #fff;
+	float:left;
+	cursor:pointer;
+	z-index:100;
+}
+.player1{
+	transform:rotate(40deg);
+}
+.player2{
+	margin-top:10%;
+	transform:rotate(20deg);
+}
+.player3{
+	margin-top:16%;
+	transform:rotate(0deg);
+}
+.player4{
+	margin-top:10%;
+	transform:rotate(-20deg);
+}
+.player5{
+	transform:rotate(-40deg);
+}
+.poker p{
+	position:absolute;
+	padding-left:45%;
+	line-height: 40px;
+	font-size: 60px;
+	margin:0px;
+}
+#heap{
+	height:50px;
+	position:relative;
+}
+h1{
+	text-align: center;
+}
+.face_back{
+	background-color:#ccc;
+	background-image: url("faces/4_2.svg");
+}
+#heap .card{
+	position:absolute;
+	top:0px;
+	left:48%;
+	z-index:10;
+	border-radius: 4px;
+}
+.chips{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	background-color: #fff;
+	line-height: 50px;
+	text-align: center;
+	
+	font-size: 18px;
+	position:absolute;
+	cursor:pointer;
+}
+.ten{
+	bottom:4px;
+	left:4px;
+}
+.twenty{
+	bottom:70px;
+	left:35px;
+}
+.fifty{
+	top:35px;
+	right:70px;
+}
+.hundred{
+	top:4px;
+	right:4px;
+}
